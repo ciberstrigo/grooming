@@ -1,0 +1,27 @@
+{
+  "name": "averianov.l/grooming-bot",
+  "type": "false",
+  "require": {
+    "nutgram/nutgram": "^4.24",
+    "openai-php/client": "^0.10.1",
+    "j0k3r/php-imgur-api-client": "^4.0",
+    "vlucas/phpdotenv": "^5.6",
+    "ext-gd": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AverianovL\\GroomingBot\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Leonid Averianov"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}

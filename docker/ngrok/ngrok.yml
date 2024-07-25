@@ -1,0 +1,8 @@
+version: 2
+authtoken: 7wGxrwzfCniwa7G2xtPdS_4uk6om53TdW1zwgWMgtgk
+heartbeat_interval: 1m
+heartbeat_tolerance: 5s
+tunnels:
+  webserver:
+    addr: "webserver:80"
+    proto: http

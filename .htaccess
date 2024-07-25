@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/images/
+RewriteCond %{REQUEST_URI} !/css/
+RewriteCond %{REQUEST_URI} !/js/
+RewriteCond %{REQUEST_URI} !/index\.php
+RewriteRule .* index.php?q=$0 [L,QSA]
+
+RewriteRule ^images/.+ public/$0 [L]
+RewriteRule ^js/.+ public/$0 [L]
+RewriteRule ^css/.+ public/$0 [L]
