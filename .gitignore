@@ -360,7 +360,6 @@ fabric.properties
 ##### Eclipse
 .metadata
 bin/
-tmp/
 *.tmp
 *.bak
 *.swp
